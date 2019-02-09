@@ -18,7 +18,7 @@ module.exports = Adapter;
  * @api public
  */
 
-function Adapter(nsp){
+function Adapter(nsp) {
   this.nsp = nsp;
   this.rooms = {};
   this.sids = {};
